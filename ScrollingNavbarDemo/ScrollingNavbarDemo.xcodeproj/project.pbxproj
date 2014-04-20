@@ -25,6 +25,7 @@
 		65BB5A7B18E06AA7007D4E86 /* UIViewController+ScrollingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BB5A7A18E06AA7007D4E86 /* UIViewController+ScrollingNavbar.m */; };
 		65BF9E69182E5AB70092BF7F /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF9E68182E5AB70092BF7F /* ScrollViewController.m */; };
 		65BF9E6F182E5AD40092BF7F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF9E6E182E5AD40092BF7F /* TableViewController.m */; };
+		B8738B6D19046A240044FD42 /* NavBarSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B8738B6C19046A240044FD42 /* NavBarSetting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		65BF9E6D182E5AD40092BF7F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		65BF9E6E182E5AD40092BF7F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		8489AA7F1845642D00C862B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8738B6B19046A240044FD42 /* NavBarSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarSetting.h; sourceTree = "<group>"; };
+		B8738B6C19046A240044FD42 /* NavBarSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarSetting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,8 @@
 				652B4485182D376600D01F5C /* MainViewController.m */,
 				65BF9E67182E5AB70092BF7F /* ScrollViewController.h */,
 				65BF9E68182E5AB70092BF7F /* ScrollViewController.m */,
+				B8738B6B19046A240044FD42 /* NavBarSetting.h */,
+				B8738B6C19046A240044FD42 /* NavBarSetting.m */,
 				65BF9E6D182E5AD40092BF7F /* TableViewController.h */,
 				65BF9E6E182E5AD40092BF7F /* TableViewController.m */,
 				632963A7186E5834005CBEA8 /* CollectionViewController.h */,
@@ -289,6 +294,7 @@
 			files = (
 				632963A9186E5834005CBEA8 /* CollectionViewController.m in Sources */,
 				65BB5A7B18E06AA7007D4E86 /* UIViewController+ScrollingNavbar.m in Sources */,
+				B8738B6D19046A240044FD42 /* NavBarSetting.m in Sources */,
 				65BF9E6F182E5AD40092BF7F /* TableViewController.m in Sources */,
 				652B4480182D376600D01F5C /* AMAppDelegate.m in Sources */,
 				65BF9E69182E5AB70092BF7F /* ScrollViewController.m in Sources */,

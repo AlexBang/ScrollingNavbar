@@ -1,13 +1,15 @@
 //
-//  AMCollectionViewController.m
+//  CollectionViewController.h
 //  ScrollingNavbarDemo
 //
-//  Created by David on 28/12/2013.
-//  Copyright (c) 2013 Andrea Mazzini. All rights reserved.
-//
+//  Created by Hao Zheng on 4/20/14.
+//  Copyright (c) 2014 Hao Zheng. All rights reserved.
+
 
 #import "CollectionViewController.h"
 #import "UIViewController+ScrollingNavbar.h"
+#import "NavBarSetting.h"
+
 
 @interface CollectionViewController ()
 
@@ -19,11 +21,15 @@
 {
     [super viewDidLoad];
 	
+    NavBarSetting *navb = [[NavBarSetting alloc]init];
+    [navb setupNavBar:self.navigationController.navigationBar];
+    
+    
 	self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     
 	// Just call this line to enable the scrolling navbar
-	//[self followScrollView:self.collectionView];
+	[self followScrollView:self.collectionView];
 
 }
 

@@ -1,10 +1,9 @@
 //
-//  AMViewController.m
+//  NavBarSetting.h
 //  ScrollingNavbarDemo
 //
-//  Created by Andrea on 08/11/13.
-//  Copyright (c) 2013 Andrea Mazzini. All rights reserved.
-//
+//  Created by Hao Zheng on 4/20/14.
+//  Copyright (c) 2014 Andrea Mazzini. All rights reserved.
 
 #import "MainViewController.h"
 

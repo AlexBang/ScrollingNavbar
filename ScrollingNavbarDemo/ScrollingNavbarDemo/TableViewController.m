@@ -1,13 +1,13 @@
 //
-//  AMTableViewController.m
+//  TableViewController.h
 //  ScrollingNavbarDemo
 //
-//  Created by Andrea Mazzini on 09/11/13.
-//  Copyright (c) 2013 Andrea Mazzini. All rights reserved.
-//
+//  Created by Hao Zheng on 4/20/14.
+//  Copyright (c) 2014 Hao Zheng. All rights reserved.
 
 #import "TableViewController.h"
 #import "UIViewController+ScrollingNavbar.h"
+#import "NavBarSetting.h"
 
 @interface TableViewController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 
@@ -22,6 +22,9 @@
 {
 	[super viewDidLoad];
 	
+    NavBarSetting *navb = [[NavBarSetting alloc]init];
+    [navb setupNavBar:self.navigationController.navigationBar];
+    
 	
 	self.data = @[@"Awesome content", @"Great content", @"Amazing content", @"Ludicrous content", @"Awesome content", @"Great content", @"Amazing content", @"Ludicrous content", @"Awesome content", @"Great content", @"Amazing content", @"Ludicrous content", @"Awesome content", @"Great content", @"Amazing content", @"Ludicrous content"];
 	
